@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HTML5 Canvas Basic</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div class="board-wrapper">
+    <h1>Drawing board</h1>
+
+    <div class="select-color">
+      <div class="color-input">
+        <label for="color">Brush color</label>
+        <input type="color" id="color">
+      </div>
+      <button id="clear-cvs" class="clear-cvs">Clear canvas</button>
+    </div>
+    <canvas id="cvs-board" width="600" height="350">Браузер не поддерживает canvas</canvas>
+  </div>
+  
+  <script src="./scripts.js"></script>
+</body>
+</html>

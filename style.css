@@ -1,0 +1,30 @@
+.board-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#cvs-board {
+  width: 600px;
+  height: 350px;
+  border: 1px solid #cdcdcd;
+}
+#color {
+  margin-bottom: 15px;
+}
+.select-color {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.select-color .color-input {
+  display: flex;
+  align-items: flex-start;
+}
+.color-input label {
+  margin-right: 10px;
+}
+.select-color .clear-cvs {
+  padding: 5px 15px;
+}
